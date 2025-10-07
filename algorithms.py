@@ -34,3 +34,9 @@ def fibonacci(n):
     for _ in range(n):
         a, b = b, a + b
     return a
+
+
+def login():
+    username = input("Username: ")
+    password = input("Password: ")
+    return username == "admin" and password == "1234"
